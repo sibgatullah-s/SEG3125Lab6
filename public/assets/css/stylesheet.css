@@ -1,0 +1,156 @@
+body {
+    background-image: url('/assets/images/backgroundblur.jpg'); 
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.image {
+    text-align: center;
+}
+
+img {
+    width: 15%;
+    margin: 20px;
+    height: auto;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-weight: 400;
+}
+
+.modal-container {
+    /* background-color: rgba(138, 188, 159, 0.5); */
+    background-image: url('images/bamboo.png');
+    background-color: rgba(138, 188, 159, 0.788);
+    width: 550px;
+}
+
+.container-fluid {
+    background-color: rgba(138, 188, 159, 0.788);
+    border-radius: 25px;
+}
+
+.Top {
+    display: flex;
+    justify-content: center;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 17;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.wrapper {
+    background-color: white;
+    margin: 0 auto;
+    width: 550px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 550px;
+    background-color: rgba(138, 188, 159, 0.5);
+    background-image: url('images/bamboo.png');
+}
+
+.flex-container > div {
+    /* background-color: rgba(138, 188, 159, 0.5); */
+}
+
+.Question {
+    margin: 10px;
+}
+
+hr {
+    width: 300px;
+    color: rgba(138, 188, 159, 0.8);
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.Q {
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 90%;
+}
+
+.A {
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 85%;
+    font-weight: 400;
+}
+
+#Q1Q, #Q1A {
+    display: inline;
+}
+
+.likert {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 35px;
+    display: block;
+    border-bottom: 2px solid #efefef;
+}
+
+.likert:last-of-type {
+    border-bottom: 0;
+}
+
+.likert:before {
+    content: '';
+    position: relative;
+    top: 11px;
+    left: 9.5%;
+    display: block;
+    background-color:#efefef;
+    height: 4px;
+    width: 78%;
+}
+
+.likert li {
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.likert li input {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -6px;
+}
+
+.likert li label {
+    width: 100%;
+}
+
+.submitbtn {
+    text-align: center;
+}
+
+button {
+    background-color: rgba(238, 238, 238, 0.445);
+    padding: 10px;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size:85%;
+    font-weight: 400;
+}
+
+textarea {
+    width: 100%;
+}
+
+footer {
+    margin: 10px;
+    font-size: 11;
+}

@@ -1,0 +1,128 @@
+<html>
+    
+    <head>
+        <title>
+            Survey
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/assets/css/stylesheet.css" media="screen"/>
+        <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Libre+Baskerville'/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>   
+        
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="modal-container">
+
+                <div class="container-fluid">
+                    <h1>
+                        Evaluate This UI
+                    </h1>
+                    
+                    <div class="Top">
+                        What do you think of the UI on this&nbsp <a href="https://www.vitamix.com/ca/en_us">Vitamix</a> &nbspsite?
+                    </div>
+                </div>
+                
+                <hr>
+                <div class="image">
+                    <a href="https://www.vitamix.com/ca/en_us">
+                        <img class="photo" src="/assets/images/www.vitamix.com_ca_en_us.png">
+                    </a> 
+                </div>
+                <div class="Questions">
+                    <form>
+                        <div class="container-fluid">
+                            <div class="Q" id="Q1Q">Describe this website in one word:</div>
+                            <div class="A" id="Q1A"><input type="text" name="Q1"></div>
+                        </div>
+                        <hr>
+                        <div class="container-fluid">
+                            <div class="Q">Is the navigation bar at the top well placed?</div>
+                            <div class="A">
+                                <input type="radio" name="Q2" value="yes">Yes<br>
+                                <input type="radio" name="Q2" value="no">No<br>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-fluid">
+                            <div class="Q">Which section on the navigation bar interests you the most?</div>
+                            <div class="A">
+                                <select name="Q3">
+                                    <option disabled selected value> -- select an option -- </option>
+                                    <option value="Shop Products">Shop Products</option>
+                                    <option value="Why Vitamix">Why Vitamix</option>
+                                    <option value="What You Can Make">What You Can Make</option>
+                                    <option value="Recipes">Recipes</option>
+                                    <option value="Support">Support</option>
+                                    <option value="Rewards">Rewards</option>
+                                </select><br>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-fluid">
+                            <div class="Q">Select which of the images at the bottom of the site are appealing to you:</div>
+                            <div class="A">
+                                <input type="checkbox" name="Q4" value="Feed Your Life">Feed Your Life<br>
+                                <input type="checkbox" name="Q4" value="Events and Demonstrations">Events and Demonstrations<br>
+                                <input type="checkbox" name="Q4" value="More Than a Blender">More Than a Blender<br>
+                                <input type="checkbox" name="Q4" value="Commercial">Commercial<br>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-fluid">
+                            <div class="Q">Comments:</div>
+                                <textarea rows="5" cols="30" name="Q5"></textarea>
+                        </div>
+                        <hr>
+                        <div class="container-fluid">
+                            <div class="Q">This UI is well designed and reflects a good product:</div>
+                            <div class="A">
+                                <ul class="likert">
+                                    <li>
+                                      <input type="radio" name="likert" value="sagree">
+                                      <label>Strongly Agree</label>
+                                    </li>
+                                    <li>
+                                      <input type="radio" name="likert" value="agree">
+                                      <label>Agree</label>
+                                    </li>
+                                    <li>
+                                      <input type="radio" name="likert" value="neutral">
+                                      <label>Neutral</label>
+                                    </li>
+                                    <li>
+                                      <input type="radio" name="likert" value="disagree">
+                                      <label>Disagree</label>
+                                    </li>
+                                    <li>
+                                      <input type="radio" name="likert" value="sdisagree">
+                                      <label>Strongly Disagree</label>
+                                    </li>
+                                  </ul>
+                            </div>
+                        </div>
+                    <!-- </form> -->
+                    <div class="submitbtn">
+                        <button type="submit" id="bb">Submit</button> 
+                        <!-- <button type="submit" class="btn btn-warning" id="bb">Submit</button> -->
+                    </form>
+                    </div>
+                    <footer>
+                        <p>
+                            Website designed by Sibgatullah Shaikh
+                        </p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    <script src="/assets/action.js"></script>
+    </body>
+
+</html>
